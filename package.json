@@ -1,0 +1,39 @@
+{
+  "name": "eslint-plugin-agree",
+  "version": "1.0.4",
+  "description": "eslint-plugin-agree",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "agree",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ast2018/eslint-plugin-agree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ast2018/eslint-plugin-agree/issues"
+  },
+  "homepage": "https://github.com/ast2018/eslint-plugin-agree#readme"
+}
